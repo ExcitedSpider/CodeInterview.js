@@ -8,9 +8,9 @@ var arr = Array.from(new Array(1000000),()=>{
 })
 
 var valid = {};
-var repeat = 0;
-var dateBegin = new Date();
 var result = [];
+
+var dateBegin = new Date();
 
 arr.forEach(element => {
   if(!valid[element])
@@ -19,5 +19,6 @@ arr.forEach(element => {
 });
 
 var dateEnd = new Date();
+
 console.log("time cost: "+(dateEnd.getTime()-dateBegin.getTime())+"ms");
 console.log("unique elements: "+result.length);
