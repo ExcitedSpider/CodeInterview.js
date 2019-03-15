@@ -21,5 +21,6 @@ arr.forEach(element => {
 
 var dateEnd = new Date();
 
+//在我的机器，一百万条数据跑了169ms
 console.log("time cost: "+(dateEnd.getTime()-dateBegin.getTime())+"ms");
 console.log("unique elements: "+result.length);
