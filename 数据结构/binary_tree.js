@@ -1,3 +1,8 @@
+/**
+ * 二叉树的3种遍历方法
+ * 含递归和非递归版
+ */
+
 //辅助函数
 
 Array.prototype.top = function () {
