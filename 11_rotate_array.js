@@ -1,6 +1,7 @@
 /**
  * 面试题11
  * 旋转数组的最小数字
+ * 示例输入: 3 4 5 1 2
  */
 const readline = require('readline');
 
