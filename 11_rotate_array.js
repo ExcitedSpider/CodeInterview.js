@@ -35,6 +35,5 @@ function getMin(list) {
       start = mid + 1;
     }
   }
-
   return list[start];
 }
