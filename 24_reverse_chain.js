@@ -31,7 +31,7 @@ Node.reverse = function (root) {
   }
 
   nextptr.next = ptr;
-  root.next = undefined;
+  root.next = undefined;  //这一步我最开始漏掉了，加个注释注意一下
   return nextptr;
 }
 
