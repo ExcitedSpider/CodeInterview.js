@@ -50,6 +50,6 @@ Node._match = function(tree, subtree) {
   assert.equal(root.hasSubtree(new Node(2,new Node(6))),false);
   assert.equal(root.hasSubtree(new Node(2,undefined,new Node(5))),false);
   assert.equal(root.hasSubtree(),true);
-  
+
   
 }
