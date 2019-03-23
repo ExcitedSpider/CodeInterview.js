@@ -27,7 +27,7 @@ Node.fromBottom = function (root, k) {
   return followPtr.value;
 }
 
-function test() {
+(function main() {
   const root1 = new Node(0);
   let root2;
   const root3 = new Node(0, new Node(1, new Node(2, new Node(3, new Node(4, new Node(5))))));
@@ -38,7 +38,5 @@ function test() {
   assert.equal(Node.fromBottom(root3,1),5);
   assert.equal(Node.fromBottom(root3,6),0);
   assert.equal(Node.fromBottom(root3,7),undefined);
-}
-
-test();
+})();
 
